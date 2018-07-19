@@ -1,4 +1,4 @@
-# evolenthealthdemo
+# contactlistapp
 #steps to run app.
 #
 ## Install server dependency.
