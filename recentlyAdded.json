@@ -1,0 +1,45 @@
+[
+	{
+        "checked": false,
+        "bgColor": "red",
+        "FirstName": "Chelsey",
+        "LastName": "Dietrich",
+        "email": "Lucio_Hettinger@annie.ca",
+        "number": 893110007
+    },
+    {
+        "checked": false,
+        "bgColor": "red",
+        "FirstName": "Mrs. Dennis",
+        "LastName": "Schulist",
+        "email": "Karley_Dach@jasper.info",
+        "number": "1-477-935-8478"
+
+    },
+    {
+        "checked": false,
+        "bgColor": "black",
+        "FirstName": "Kurtis",
+        "LastName": "Schulist",
+        "email": "Karley_Dach@jasper.info",
+        "number": "210.067.6132"
+
+    },
+    {
+        "checked": false,
+        "bgColor": "orange",
+        "FirstName": "Nicholas",
+        "LastName": "Runolfsdottir",
+        "email": "Karley_Dach@jasper.info",
+        "number": "586.493.6943"
+
+    },
+    {
+        "checked": false,
+        "bgColor": "red",
+        "FirstName": "Glenna",
+        "LastName": "Delphine",
+        "email": "Chaim_McDermott@dana.io",
+        "number": "775976-6794"
+    }
+]

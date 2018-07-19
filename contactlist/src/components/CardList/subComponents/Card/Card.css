@@ -1,0 +1,58 @@
+.bg-primary {
+  background: #3f51b5 !important; }
+
+.Card_view {
+  cursor: pointer;
+  position: relative; }
+  .Card_view .card {
+    background: transparent;
+    border: none; }
+    .Card_view .card:hover {
+      background: #e7e7e7;
+      -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 7px 7px rgba(0, 0, 0, 0.24);
+      -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 7px 7px rgba(0, 0, 0, 0.24);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 7px 7px rgba(0, 0, 0, 0.24); }
+    .Card_view .card:hover:after {
+      transition: all 1s ease-in; }
+  .Card_view .mytooltip {
+    position: relative;
+    display: inline-block; }
+    .Card_view .mytooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background: #555;
+      text-align: center;
+      color: #fff;
+      padding: 7px;
+      border-radius: 4px;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -60px;
+      opacity: 0;
+      transition: opacity 0.3s; }
+      .Card_view .mytooltip .tooltiptext::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #555 transparent transparent transparent; }
+    .Card_view .mytooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1; }
+  .Card_view .name_placeholder span {
+    padding: 12px;
+    border-radius: 50%;
+    color: #fff; }
+  .Card_view .name_placeholder .red {
+    background: #CB2431; }
+  .Card_view .name_placeholder .blue {
+    background: #273c75; }
+  .Card_view .name_placeholder .orange {
+    background: #f0932b; }
+  .Card_view .name_placeholder .black {
+    background: #262626; }

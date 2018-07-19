@@ -1,0 +1,85 @@
+[   
+    {
+        "checked": true,
+        "bgColor": "red",
+        "FirstName": "Leanne",
+        "LastName": "Graham",
+        "email": "Sincere@april.biz",
+        "number": 8983110007
+    },
+    {
+        "checked": false,
+        "bgColor": "blue",
+        "FirstName": "Ervin",
+        "LastName": "Howell",
+        "email": "Shanna@melissa.tv",
+        "number": 893110001
+    },
+    {
+        "checked": false,
+        "bgColor": "orange",
+        "FirstName": "Clementine",
+        "LastName": "Bauch",
+        "email": "Nathan@yesenia.net",
+        "number": 893110002
+    },
+    {
+        "checked": false,
+        "bgColor": "red",
+        "FirstName": "Romaguera",
+        "LastName": "Jacobson",
+        "email": "Romaguera.Jacobson@kory.org",
+        "number": 893110003
+    },
+    {
+        "checked": false,
+        "bgColor": "black",
+        "FirstName": "Patricia",
+        "LastName": "Lebsack",
+        "email": "Julianne.OConner@kory.org",
+        "number": 893110007
+    },
+    {
+        "checked": false,
+        "bgColor": "red",
+        "FirstName": "Chelsey",
+        "LastName": "Dietrich",
+        "email": "Lucio_Hettinger@annie.ca",
+        "number": 893110007
+    },
+    {
+        "checked": false,
+        "bgColor": "red",
+        "FirstName": "Mrs. Dennis",
+        "LastName": "Schulist",
+        "email": "Karley_Dach@jasper.info",
+        "number": "1-477-935-8478"
+
+    },
+    {
+        "checked": false,
+        "bgColor": "black",
+        "FirstName": "Kurtis",
+        "LastName": "Schulist",
+        "email": "Karley_Dach@jasper.info",
+        "number": "210.067.6132"
+
+    },
+    {
+        "checked": false,
+        "bgColor": "orange",
+        "FirstName": "Nicholas",
+        "LastName": "Runolfsdottir",
+        "email": "Karley_Dach@jasper.info",
+        "number": "586.493.6943"
+
+    },
+    {
+        "checked": false,
+        "bgColor": "red",
+        "FirstName": "Glenna",
+        "LastName": "Delphine",
+        "email": "Chaim_McDermott@dana.io",
+        "number": "775976-6794"
+    }
+]

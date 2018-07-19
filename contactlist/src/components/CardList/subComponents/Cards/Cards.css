@@ -1,0 +1,31 @@
+.bg-primary {
+  background: #3f51b5 !important; }
+
+.contacts_cards .fab_Icon .fab {
+  position: relative; }
+  .contacts_cards .fab_Icon .fab .add {
+    cursor: pointer;
+    position: fixed;
+    bottom: 10%;
+    padding: 10px;
+    background: #3f51b5;
+    color: #fff;
+    right: 44px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4); }
+  .contacts_cards .fab_Icon .fab .tooltipText {
+    position: fixed;
+    visibility: hidden;
+    width: 120px;
+    background: #555;
+    text-align: center;
+    color: #fff;
+    padding: 7px;
+    border-radius: 4px;
+    z-index: 1;
+    bottom: 17%;
+    right: 1%;
+    opacity: 0;
+    transition: opacity 0.3s; }
+  .contacts_cards .fab_Icon .fab:hover .tooltipText {
+    visibility: visible;
+    opacity: 1; }

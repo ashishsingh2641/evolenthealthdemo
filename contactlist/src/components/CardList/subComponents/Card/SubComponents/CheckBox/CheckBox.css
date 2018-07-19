@@ -1,0 +1,72 @@
+.CustomCheckbox label {
+  margin-bottom: 0;
+  display: block; }
+
+.CustomCheckbox [type="checkbox"]:not(:checked), .CustomCheckbox [type="checkbox"]:checked {
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  cursor: pointer;
+  margin-top: 9px;
+  margin-left: 12px;
+  display: block; }
+
+.CustomCheckbox [type="checkbox"]:not(:checked) + label, .CustomCheckbox [type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 1.95em;
+  cursor: pointer; }
+
+.CustomCheckbox [type="checkbox"]:not(:checked) + label:before, .CustomCheckbox [type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left: 10px;
+  top: 9px;
+  width: 1em;
+  height: 1em;
+  border: solid 1px #999999;
+  border-radius: 3px; }
+
+.CustomCheckbox [type="checkbox"]:not(:checked) + label:after, .CustomCheckbox [type="checkbox"]:checked + label:after {
+  font-family: 'Material Icons';
+  content: '\E5CA';
+  position: absolute;
+  left: 11px;
+  top: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #0288d1;
+  border-radius: 3px;
+  transition: all .1s; }
+
+.CustomCheckbox [type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0); }
+
+.CustomCheckbox [type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1); }
+
+.CustomCheckbox [type="checkbox"]:disabled:not(:checked) + label:before {
+  box-shadow: none;
+  border-color: #bbb;
+  background-color: #ddd; }
+
+.CustomCheckbox [type="checkbox"]:disabled:checked + label:before {
+  box-shadow: none;
+  border-color: #bbb; }
+
+.CustomCheckbox [type="checkbox"]:disabled:checked + label:after {
+  color: #fff;
+  background: #0288d1; }
+
+.CustomCheckbox [type="checkbox"]:disabled + label {
+  color: #aaa; }
+
+.CustomCheckbox [type="checkbox"]:checked:focus + label:before {
+  border: 1px solid #0288d1; }
+
+.CustomCheckbox [type="checkbox"]:not(:checked):focus + label:before {
+  background: #fff; }
+
+.CustomCheckbox label:hover:before {
+  border: 1px solid #0288d1 !important; }

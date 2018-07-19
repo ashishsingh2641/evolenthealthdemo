@@ -1,0 +1,5 @@
+.App .fixed_Menu {
+  position: relative; }
+
+.App #main {
+  transition: margin-left .7s; }

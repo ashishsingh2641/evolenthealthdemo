@@ -1,0 +1,86 @@
+
+$cerulean: #0288d1;
+$warm-grey-two:#999999;
+$white: #fff;
+
+.CustomCheckbox {
+    label {
+        margin-bottom: 0;
+        display: block;
+    }
+    [type="checkbox"] {
+    &:not(:checked), &:checked {
+      position: absolute;
+      z-index: 1;
+      opacity: 0;
+      cursor: pointer;
+      margin-top: 9px;
+      margin-left: 12px;
+      display: block;
+    }
+    &:not(:checked) + label, &:checked + label {
+      position: relative;
+      padding-left: 1.95em;
+      cursor: pointer;
+    }
+    &:not(:checked) + label:before, &:checked + label:before {
+      content: '';
+      position: absolute;
+      left: 10px;
+      top: 9px;
+      width: 1em;
+      height: 1em;
+      border: solid 1px $warm-grey-two;
+      border-radius: 3px;
+    }
+    &:not(:checked) + label:after, &:checked + label:after {
+      font-family: 'Material Icons';
+      content: '\E5CA';
+      position: absolute;
+      left: 11px;
+      top: 8px;
+      font-size: 14px;
+      font-weight: 600;
+      color: $cerulean;
+      border-radius: 3px;
+      transition: all .1s;
+    }
+    &:not(:checked) + label:after {
+      opacity: 0;
+      transform: scale(0);
+    }
+    &:checked + label:after {
+      opacity: 1;
+      transform: scale(1);
+    }
+    &:disabled {
+      &:not(:checked) + label:before {
+        box-shadow: none;
+        border-color: #bbb;
+        background-color: #ddd;
+    }
+    &:checked + label {
+      &:before {
+        box-shadow: none;
+        border-color: #bbb;
+    }
+        &:after {
+            color: $white;
+             background: $cerulean;
+            }
+        }
+        + label {
+        color: #aaa;
+        }
+    }
+    &:checked:focus + label:before,  {
+        border: 1px solid $cerulean;
+    }
+    &:not(:checked):focus + label:before {
+        background: $white;
+      }
+    }
+    label:hover:before {
+      border: 1px solid $cerulean !important;
+    }
+}

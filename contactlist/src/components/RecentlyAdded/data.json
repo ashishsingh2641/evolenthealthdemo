@@ -1,0 +1,59 @@
+[
+    {
+        "checked": true,
+        "bgColor": "red",
+        "FirstName": "Ashish",
+        "LastName": "Singh",
+        "email": "ashish@gmail.com",
+        "number": 893110007
+    },
+    {
+        "checked": false,
+        "bgColor": "blue",
+        "FirstName": "Ravish",
+        "LastName": "Singh",
+        "email": "ashish@gmail.com",
+        "number": 893110007
+    },
+    {
+        "checked": false,
+        "bgColor": "orange",
+        "FirstName": "Shweta",
+        "LastName": "Singh",
+        "email": "ashish@gmail.com",
+        "number": 893110007
+    },
+    {
+        "checked": false,
+        "bgColor": "red",
+        "FirstName": "Kundan",
+        "LastName": "Singh",
+        "email": "ashish@gmail.com",
+        "number": 893110007
+    },
+    {
+        "checked": false,
+        "bgColor": "red",
+        "FirstName": "Simran",
+        "LastName": "Singh",
+        "email": "ashish@gmail.com",
+        "number": 893110007
+    },
+    {
+        "checked": false,
+        "bgColor": "red",
+        "FirstName": "Dhrity",
+        "LastName": "Singh",
+        "email": "ashish@gmail.com",
+        "number": 893110007
+    },
+    {
+        "checked": false,
+        "bgColor": "red",
+        "FirstName": "Ankit",
+        "LastName": "Singh",
+        "email": "ashish@gmail.com",
+        "number": 893110007
+
+    }
+]

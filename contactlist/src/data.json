@@ -1,0 +1,32 @@
+[
+    {
+        "path": "/",
+        "iconName": "contacts",
+        "contactLabel": "All Contact"
+    },
+    {
+        "path": "/recentlyadded",
+        "iconName": "av_timer",
+        "contactLabel": "Frequently contacted"
+    },
+    {
+        "path": "/blockcontact",
+        "iconName": "lock",
+        "contactLabel": "Block contact"
+    },
+    {
+        "path": "/",
+        "iconName": "devices_other",
+        "contactLabel": "Other contact"
+    }
+    ,{
+        "path": "/recentlyadded",
+        "iconName": "group_work",
+        "contactLabel": "Group Contact"
+    },
+    {
+        "type": "accordion",
+        "iconName": "Show Notifications",
+        "contactLabel": "Hide Notifications"
+    }
+]

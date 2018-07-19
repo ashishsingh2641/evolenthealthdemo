@@ -1,0 +1,12 @@
+.form-group_container {
+  margin-bottom: 0;
+  position: relative; }
+  .form-group_container input {
+    background: #4c71cf;
+    border: 0;
+    padding-left: 38px; }
+  .form-group_container .material-icons {
+    color: white;
+    position: absolute;
+    top: 6px;
+    left: 10px; }

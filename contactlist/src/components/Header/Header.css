@@ -1,0 +1,19 @@
+.bg-primary {
+  background: #3f51b5 !important; }
+
+.navigation_header {
+  padding: 0.8rem 1em; }
+  .navigation_header .menu {
+    color: #fff;
+    cursor: pointer; }
+  .navigation_header .nar_brand {
+    color: #fff;
+    font-family: 'Museo500';
+    font-size: 20px; }
+  .navigation_header .right_menu {
+    color: #fff; }
+  .navigation_header .nav .nav-item .bell {
+    border: 1px solid #fff;
+    color: #3f51b5;
+    background: #fff;
+    border-radius: 50%; }
