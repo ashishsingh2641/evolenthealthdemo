@@ -22,7 +22,7 @@ class OverLayModel extends Component {
                 </div>
                 <div className="model-body p-4">
                     <form className="row text-left">
-                        <div className="col-6">
+                        <div className="col-sm-6">
                             <div className="form-group">
                                 <label htmlFor="exampleInputFirstName">First Name</label>
                                     <input 
@@ -34,6 +34,8 @@ class OverLayModel extends Component {
                                         name="FirstName"
                                         value={props.FirstName} />
                             </div>
+                        </div>
+                        <div className="col-sm-6">
                             <div className="form-group">
                                 <label htmlFor="exampleInputEmail">Email</label>
                                     <input 
@@ -47,7 +49,7 @@ class OverLayModel extends Component {
                                         value={props.email} />
                             </div>
                         </div>
-                        <div className="col-6">
+                        <div className="col-sm-6">
                             <div className="form-group">
                                 <label htmlFor="exampleInputLastName">Last Name</label>
                                     <input 
@@ -59,7 +61,8 @@ class OverLayModel extends Component {
                                         placeholder="Last Name" 
                                         value={props.LastName} />
                             </div>
-                            
+                        </div>
+                        <div className="col-sm-6">
                             <div className="form-group">
                                 <label htmlFor="exampleInputNumber">Phone Number</label>
                                     <input 
@@ -71,17 +74,18 @@ class OverLayModel extends Component {
                                         placeholder="Enter phone number" 
                                         value={props.number} />
                             </div>
-                            
-                        <div className="row">
-                            <div className="col-sm-6 mx-auto">
-                                <button type="button" className="btn btn-danger mr-2" onClick={this.SubmitHandler}>
-                                    submit
-                                </button>
-                                <button type="button" className="btn btn-warning" onClick={props.ClearHandler}>
-                                    cancle
-                                </button>
-                            </div>
                         </div>
+                        <div className="col-12 mx-auto">
+                            <div className="row">
+                                <div className="col-sm-6">
+                                    <button type="button" className="btn btn-danger mr-2" onClick={this.SubmitHandler}>
+                                        submit
+                                    </button>
+                                    <button type="button" className="btn btn-warning" onClick={props.ClearHandler}>
+                                        cancle
+                                    </button>
+                                </div>
+                            </div>
                         </div>
                     </form>
                 </div>
